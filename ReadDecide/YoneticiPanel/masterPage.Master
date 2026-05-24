@@ -1,0 +1,60 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="masterPage.master.cs" Inherits="ReadDecide.YoneticiPanel.masterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="css/anaStil.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="ustPanel">
+            <div class="panelbir">
+                <h3>Read & Decide <small style="font-weight: 100">Yönetici Panel</small> </h3>
+            </div>
+            <div class="paneliki">
+                <div class="altbaslik">
+                    <label>Read Reviews.Decide Better.</label>
+                </div>
+
+                <div class="kullanıcıbilgi">
+                    Merhaba
+                    <asp:Label ID="lbl_kullanici" runat="server"></asp:Label>
+                    |
+     <asp:LinkButton ID="lbtn_cikis" runat="server" Text="Çıkış yap" OnClick="lbtn_cikis_Click"> </asp:LinkButton>
+                </div>
+            </div>
+        </div>
+
+        <div class="anaTasiyici">
+            <div class="solpanel">
+
+                <div class="menuTasiyici">
+                    <label>Menü</label>
+                    <a href="default.aspx">Ana Sayfa</a>
+                    <label>Kitap Yönetimi</label>
+                    <a href="KitapEkle.aspx">Kitap Ekle</a>
+                    <a href="KitapListele.aspx">Kitap Listele</a>
+
+                    <label>Kategori Yönetimi</label>
+                    <a href="KategoriEkle.aspx">Kategori Ekle</a>
+                   <a href="KategoriListele.aspx">Kategori Listele</a>
+
+                    <label>Üye Yönetimi</label>
+                    <a href="UyeListele.aspx">Üye Listele</a>
+
+                    <label>Yorum Yönetimi</label>
+                    <a href="YorumListele.aspx">Yorum Listele</a>
+                </div>
+            </div>
+            <div class="icerikTasiyici">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

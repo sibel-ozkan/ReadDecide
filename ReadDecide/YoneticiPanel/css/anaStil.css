@@ -1,0 +1,773 @@
+﻿*, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Calibri;
+}
+
+.ustPanel {
+}
+
+.panelbir {
+    background-color: #024959;
+    text-align: left;
+    color: white;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    font-size: 24px;
+}
+
+.paneliki {
+    background-color: white;
+    text-align: left;
+    font-size: 8pt;
+    color: black;
+    border-bottom: 1px solid #DCEEEE;
+    height: 25px;
+    padding-left: 30px;
+    font-size: 8pt;
+    font-family: 'Sans Serif Collection';
+    display: flex;
+}
+
+.altbaslik {
+}
+
+.kullanıcıbilgi {
+    margin-left: auto;
+    padding-right: 20px;
+    color: #024959;
+}
+
+    .kullanıcıbilgi a {
+        text-decoration: none;
+    }
+
+        .kullanıcıbilgi a:hover {
+            color: #012E40;
+        }
+
+.anaTasiyici {
+    height: 100vh;
+    display: flex;
+}
+
+.solpanel {
+    width: 200px;
+    background-color: #024959;
+}
+
+.sayfaBaslik {
+    color: white;
+    text-align: center;
+    height: 40px;
+    background-color: #024959;
+}
+
+.menuTasiyici {
+}
+
+    .menuTasiyici a {
+        color: white;
+        text-decoration: none;
+        display: block;
+        padding: 7px 30px;
+    }
+
+        .menuTasiyici a:hover {
+            background-color: #012E40;
+            cursor: pointer;
+        }
+
+    .menuTasiyici label {
+        color: white;
+        text-decoration: none;
+        display: block;
+        padding: 7px 30px;
+        background-color: #012E40;
+    }
+
+.icerikTasiyici {
+    padding: 20px 20px;
+    color: #1d1d1d;
+}
+
+.icerikpanel {
+    flex-grow: 1;
+}
+
+.ustpanel {
+    height: 40px;
+    padding-top: 15px;
+    background-color: #efefef;
+    border-bottom: 1px solid #024959;
+}
+
+.formTasiyici {
+    width: 1300px;
+    background-color: #ffffff;
+    border: 1px solid #DCEEEE;
+    border-radius: 14px;
+    padding: 25px 30px;
+    box-sizing: border-box;
+}
+
+.formBaslik h3 {
+    color: #024959;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.formIcerik {
+    width: 100%;
+}
+
+.satir {
+    margin-bottom: 16px;
+}
+
+    .satir label {
+        display: block;
+        color: #012E40;
+        font-size: 15px;
+        font-weight: 600;
+        margin-bottom: 6px;
+    }
+
+.metinKutu {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #DCEEEE;
+    border-radius: 9px;
+    padding: 0 12px;
+    font-size: 15px;
+    color: #3A444A;
+    box-sizing: border-box;
+}
+
+.button {
+    height: 40px;
+    min-width: 160px;
+    border: none;
+    border-radius: 9px;
+    background-color: #026773;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+    .button:hover {
+        background-color: #3CA6A6;
+    }
+
+.basariliMesaj {
+    background-color: #E9F7F7;
+    color: #024959;
+    border: 1px solid #3CA6A6;
+    border-radius: 9px;
+    padding: 10px 12px;
+    margin-bottom: 15px;
+}
+
+.basarisizMesaj {
+    background-color: #FFF0F0;
+    color: #8A1F1F;
+    border: 1px solid #D78A8A;
+    border-radius: 9px;
+    padding: 10px 12px;
+    margin-bottom: 15px;
+}
+
+
+
+.formBaslik {
+    margin-bottom: 20px;
+}
+
+    .formBaslik h3 {
+        color: #024959;
+        font-size: 28px;
+    }
+
+.formIcerik {
+    width: 100%;
+}
+
+.tablo {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    .tablo th {
+        background-color: #024959;
+        color: white;
+        padding: 12px;
+        text-align: left;
+    }
+
+    /*.tablo td {
+        padding: 12px;
+        border-bottom: 1px solid #DCEEEE;
+    }*/
+
+    .tablo tr:hover {
+        background-color: #F5F7F7;
+    }
+
+    .tablo a {
+        text-decoration: none;
+        color: #026773;
+        font-weight: bold;
+    }
+
+        .tablo a:hover {
+            color: #3CA6A6;
+        }
+
+.tablo {
+    width: 100%;
+    border-collapse: collapse;
+    border: none;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+    .tablo th {
+        background-color: #024959;
+        color: white;
+        padding: 12px;
+        text-align: left;
+        border: none;
+    }
+
+    .tablo td {
+        padding: 5px;
+        border-bottom: 1px solid #DCEEEE;
+        border-left: none;
+        border-right: none;
+    }
+
+    .tablo tr:hover {
+        background-color: #F5F7F7;
+    }
+
+    .tablo a {
+        color: #026773;
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+        .tablo a:hover {
+            color: #3CA6A6;
+        }
+
+.formTabloIcerik {
+    margin-top: 20px;
+}
+
+.tablo {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    .tablo th {
+        background-color: #024959;
+        color: white;
+        padding: 14px;
+        text-align: left;
+        font-size: 15px;
+    }
+
+    /*.tablo td {
+        padding: 14px;
+        border-bottom: 1px solid #DCEEEE;
+        font-size: 15px;
+    }*/
+
+    .tablo tr.alt {
+        background-color: #F7FBFB;
+    }
+
+    .tablo tr:hover {
+        background-color: #F1F7F7;
+    }
+
+.tablebutton {
+    text-decoration: none;
+    color: white;
+    padding: 7px 12px;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 600;
+    margin-right: 6px;
+    display: inline-block;
+}
+
+.durum {
+    background-color: #FFC107;
+    color: #1d1d1d;
+}
+
+    .durum:hover {
+        background-color: #E0AA00;
+    }
+
+.duzenle {
+    background-color: #0D6EFD;
+}
+
+    .duzenle:hover {
+        background-color: #0B5ED7;
+    }
+
+.sil {
+    background-color: #DC3545;
+}
+
+    .sil:hover {
+        background-color: #BB2D3B;
+    }
+
+.tablebutton {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 7px 10px;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 600;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+.durum {
+    background-color: #f2b705;
+    color: #ffffff;
+}
+
+.duzenle {
+    background-color: #026773;
+    color: #ffffff
+}
+
+    .duzenle:hover {
+        background-color: #3CA6A6 !important;
+        color: #ffffff !important;
+    }
+
+.sil {
+    background-color: #b00020;
+}
+
+.tablebutton:hover {
+    opacity: 0.85;
+}
+
+.tablebutton,
+.tablo a.tablebutton {
+    text-decoration: none !important;
+    color: #ffffff !important;
+    padding: 7px 10px;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 600;
+    margin-right: 5px;
+    display: inline-block;
+    min-width: 70px;
+    text-align: center;
+}
+
+.tablo a.duzenle,
+.duzenle {
+    background-color: #026773 !important;
+    color: #ffffff !important;
+}
+
+    .tablo a.duzenle:hover,
+    .duzenle:hover {
+        background-color: #3CA6A6 !important;
+        color: #ffffff !important;
+    }
+
+.durum {
+    background-color: #f2b705 !important;
+    color: #012E40 !important;
+}
+
+.sil {
+    background-color: #b00020 !important;
+    color: #ffffff !important;
+}
+
+.buyukAciklama {
+    width: 100%;
+    min-height: 180px;
+    resize: vertical;
+    padding: 12px;
+    font-size: 15px;
+}
+
+
+
+.metinKutu {
+    max-width: 100%;
+}
+
+.buyukAciklama {
+    min-height: 180px;
+}
+
+.istatistikKutulari {
+    display: flex;
+    gap: 18px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.istatistikKutu {
+    width: 190px;
+    background-color: #ffffff;
+    border: 1px solid #DCEEEE;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(1, 46, 64, 0.08);
+}
+
+    .istatistikKutu h2 {
+        color: #012E40;
+        font-size: 30px;
+        margin-bottom: 6px;
+    }
+
+    .istatistikKutu p {
+        color: #555;
+        font-size: 15px;
+    }
+
+.sonYorumlarPanel {
+    margin-top: 35px;
+    background-color: white;
+    border-radius: 12px;
+    padding: 20px;
+    border: 1px solid #DCEEEE;
+    box-shadow: 0 4px 12px rgba(1, 46, 64, 0.08);
+    width: 980px;
+}
+
+    .sonYorumlarPanel h3 {
+        color: #012E40;
+        margin-bottom: 18px;
+        font-size: 24px;
+    }
+
+.yorumTablo {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    .yorumTablo th {
+        background-color: #024959;
+        color: white;
+        padding: 14px;
+        text-align: left;
+    }
+
+    .yorumTablo td {
+        padding: 14px;
+        border-bottom: 1px solid #E7EEEE;
+    }
+
+    .yorumTablo tr:hover {
+        background-color: #F5F7F7;
+    }
+
+.istatistikKutu {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.istatistikIkon {
+    width: 48px;
+    height: 48px;
+    border: 2px solid #3CA6A6;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    background-color: #F5F7F7;
+}
+
+.dashboardGrid {
+    display: flex;
+    gap: 20px;
+    margin-top: 25px;
+}
+
+    .dashboardGrid .dashboardPanel {
+        flex: 1;
+    }
+
+.dashboardPanel {
+    background-color: white;
+    border: 1px solid #DCEEEE;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(1, 46, 64, 0.08);
+    margin-top: 25px;
+}
+
+    .dashboardPanel h3 {
+        color: #012E40;
+        margin-bottom: 15px;
+        font-size: 22px;
+    }
+
+.yorumMetni {
+    max-width: 350px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.kitaplarAlan {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 30px;
+}
+
+.kitapKart {
+    width: 300px;
+    background-color: white;
+    border-radius: 14px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(1, 46, 64, 0.08);
+    border: 1px solid #DCEEEE;
+    transition: 0.3s;
+}
+
+    .kitapKart:hover {
+        transform: translateY(-5px);
+    }
+
+    .kitapKart img {
+        width: 100%;
+        height: 380px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    .kitapKart h3 {
+        color: #012E40;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+
+    .kitapKart p {
+        color: #333;
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .kitapKart a {
+        display: inline-block;
+        margin-top: 15px;
+        padding: 10px 18px;
+        background-color: #024959;
+        color: white;
+        text-decoration: none;
+        border-radius: 8px;
+    }
+
+        .kitapKart a:hover {
+            background-color: #026773;
+        }
+
+body {
+    background-color: #F2E3D5;
+}
+
+.siteUst {
+    background-color: #024959;
+    color: white;
+    padding: 22px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.siteLogo {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.siteMenu a {
+    color: white;
+    text-decoration: none;
+    margin-left: 35px;
+    font-size: 18px;
+}
+
+.siteMenu {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+    .siteMenu span,
+    .siteMenu a {
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+    }
+
+        .siteMenu a:hover {
+            color: #F2E3D5;
+        }
+
+.siteAltBaslik {
+    background-color: #ffffff;
+    color: #555;
+    padding: 10px 50px;
+    border-bottom: 1px solid #DCEEEE;
+}
+
+.heroBaslik {
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+    .heroBaslik h1 {
+        color: #012E40;
+        font-size: 32px;
+    }
+
+.detayAlan {
+    width: 1200px;
+    margin: 50px auto;
+    display: flex;
+    gap: 50px;
+    align-items: flex-start;
+}
+
+.detayKapak {
+    width: 350px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 14px;
+    box-shadow: 0 4px 12px rgba(1, 46, 64, 0.12);
+}
+
+.detayBilgi {
+    flex: 1;
+}
+
+    .detayBilgi h1 {
+        font-size: 48px;
+        color: #012E40;
+        margin-bottom: 25px;
+    }
+
+    .detayBilgi p {
+        font-size: 20px;
+        line-height: 1.8;
+        color: #333;
+        margin-bottom: 15px;
+    }
+
+.yorumAlan {
+    width: 1200px;
+    margin: 30px auto 80px auto;
+}
+
+    .yorumAlan h2 {
+        color: #012E40;
+        margin-bottom: 20px;
+    }
+
+.yorumKart {
+    background-color: white;
+    border: 1px solid #DCEEEE;
+    border-radius: 12px;
+    padding: 18px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 12px rgba(1, 46, 64, 0.06);
+}
+
+.yorumUst {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+    .yorumUst strong {
+        color: #024959;
+    }
+
+    .yorumUst span {
+        color: #777;
+        font-size: 14px;
+    }
+
+.yorumYazPanel {
+    width: 1200px;
+    margin: 20px auto 80px auto;
+    background-color: white;
+    border: 1px solid #DCEEEE;
+    border-radius: 12px;
+    padding: 22px;
+    box-shadow: 0 4px 12px rgba(1, 46, 64, 0.06);
+}
+
+    .yorumYazPanel h2 {
+        color: #012E40;
+        margin-bottom: 15px;
+    }
+
+.yorumTextbox {
+    width: 100%;
+    min-height: 120px;
+    border: 1px solid #DCEEEE;
+    border-radius: 10px;
+    padding: 12px;
+    font-size: 16px;
+    resize: vertical;
+}
+
+.yorumButon {
+    margin-top: 15px;
+    background-color: #024959;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 22px;
+    cursor: pointer;
+}
+
+.kategoriFiltre {
+    width: 1200px;
+    margin: 30px auto;
+}
+
+    .kategoriFiltre a {
+        text-decoration: none;
+        color: #004b63;
+        background-color: #ffffff;
+        padding: 10px 18px;
+        border-radius: 8px;
+        margin-right: 10px;
+        font-weight: 600;
+        transition: 0.3s;
+    }
+
+        .kategoriFiltre a:hover {
+            background-color: #004b63;
+            color: white;
+        }

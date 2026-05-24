@@ -1,0 +1,74 @@
+﻿<%@ Master Language="C#" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+
+    <title>Read & Decide</title>
+
+    <link href="YoneticiPanel/css/anaStil.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+    <form id="form1" runat="server">
+
+        <div class="siteUst">
+
+            <div class="siteLogo">
+                Read&Decide
+            </div>
+
+            <div class="siteMenu">
+
+    <a href="Default.aspx">Ana Sayfa</a>
+
+    <% 
+        if (Session["Kullanici"] == null)
+        {
+    %>
+
+        <a href="girisYap.aspx">Giriş Yap</a>
+
+        <a href="uyeOl.aspx">Üye Ol</a>
+
+    <%
+        }
+        else
+        {
+            VeriErisimKatmani.User kullanici = 
+            (VeriErisimKatmani.User)Session["Kullanici"];
+    %>
+
+        <a href="#">
+            Hoş geldin <%= kullanici.DisplayName %>
+        </a>
+
+        <a href="cikisYap.aspx">
+            Çıkış Yap
+        </a>
+
+    <%
+        }
+    %>
+
+</div>
+
+        </div>
+
+        <div class="siteAltBaslik">
+            Read reviews. Decide better.
+        </div>
+
+        <asp:ContentPlaceHolder
+            ID="ContentPlaceHolder1"
+            runat="server">
+
+        </asp:ContentPlaceHolder>
+
+    </form>
+
+</body>
+</html>
